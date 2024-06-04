@@ -1,7 +1,7 @@
 public class Search {
     public static void main(String arg[]){
         int array2[] = {10,20,30,40,50,60,70};
-        int searchElement = 500;
+        int searchElement = 30;
         System.out.println("Search if element "+ searchElement + " present in array or not");
 
         boolean isPresent = false;

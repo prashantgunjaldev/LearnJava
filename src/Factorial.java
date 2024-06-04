@@ -10,6 +10,14 @@ public class Factorial {
             factorial = factorial * i;
             System.out.print(""+i+"*");
         }
+        System.out.println("\nFactorial is = "+ factorial);
+
+
+        factorial = 1;
+        for(int i = 7; i > 0; i--){
+            factorial = factorial * i;
+            System.out.print(""+i+"*");
+        }
         System.out.print("\nFactorial is = "+ factorial);
     }
 }

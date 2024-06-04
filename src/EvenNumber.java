@@ -12,5 +12,13 @@ public class EvenNumber {
                 System.out.println(i);
             }
         }
+
+        int array2[] = {10,15,20,67,30,40,50,60,70,75};
+        System.out.println("\n============ Even Number's from array  =============");
+        for(int i = 0; i < array2.length; i++){
+            if(array2[i] % 2 == 0){
+                System.out.print(array2[i] + ", ");
+            }
+        }
     }
 }
