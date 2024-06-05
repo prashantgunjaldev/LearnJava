@@ -13,13 +13,13 @@ public class LearnString {
         String name3 = "Amruta";
 
         System.out.println("Name in string is " + name3);
-        if(name1 == name2){
+        if(name1 == name2){ //yields false
             System.out.println("Name1 and name2 is same");
         }
-        if(name2 == name3){
+        if(name2 == name3){ //yields false
             System.out.println("Name2 and name3 is same");
         }
-        if(name3 == name1){
+        if(name3 == name1){ //yields true
             System.out.println("Name1 and name3 is same");
         }
 
