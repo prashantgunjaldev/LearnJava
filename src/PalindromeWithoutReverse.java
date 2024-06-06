@@ -1,6 +1,6 @@
 public class PalindromeWithoutReverse {
     public static void main(String[] args) {
-        String name = "ABCBAU";
+        String name = "ABCBA";
 
         int start = 0;
         int end = name.length() -1;

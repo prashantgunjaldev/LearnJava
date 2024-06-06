@@ -8,6 +8,8 @@ public class Factorial {
         int factorial = 1;
         for(int i = 1; i <= 7; i++){
             factorial = factorial * i;
+            //Above calculation can be done with below line
+            //factorial *= i;
             System.out.print(""+i+"*");
         }
         System.out.println("\nFactorial is = "+ factorial);
