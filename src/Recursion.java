@@ -24,6 +24,10 @@ public class Recursion {
 
     public static long factorial(long number){
         // 5 => 5 * f(4)
+            // 4 * f(3)
+                // 3 * f(2)
+                    // 2 * f(1)
+                        // 1 * f(0)   => 1
         if(number > 0) {
             return number * Recursion.factorial(number - 1) ;
         }
