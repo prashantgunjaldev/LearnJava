@@ -20,5 +20,10 @@ public class EmployeeObjCreator {
         System.out.println(e1.getName());
         System.out.println(e1.getAddress());
         System.out.println(e1.getBranch());
+
+        Employee e2 = new Employee("Amruta1", "Computer", "Sangamner");
+
+        e2.print();
+
     }
 }
